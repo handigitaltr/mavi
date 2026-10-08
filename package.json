@@ -1,0 +1,26 @@
+{
+  "name": "markiva-baski-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Markiva Baskı kurumsal web sitesi",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "brand:extract": "node scripts/extract-logo.mjs"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "astro": "^7.3.7",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/node": "^22.20.5",
+    "typescript": "^6.0.3"
+  }
+}
